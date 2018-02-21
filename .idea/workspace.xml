@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59486dd3-004a-4ade-975f-0aba8d9e6539" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PyUnit/baseTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PyUnit/basic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AsyncIO/Task.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AsyncIO/TaskFunctions.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,9 +15,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TutorialEdge$Twisted_Trial_for_baseTest_MyModuleTest_test_calc_x.coverage" NAME="Twisted Trial for baseTest.MyModuleTest.test_calc_x Coverage Results" MODIFIED="1519229115820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyUnit" />
+    <SUITE FILE_PATH="coverage/TutorialEdge$TaskFunctions.coverage" NAME="TaskFunctions Coverage Results" MODIFIED="1519230664322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AsyncIO" />
     <SUITE FILE_PATH="coverage/TutorialEdge$SynchronizationPrimitives.coverage" NAME="SynchronizationPrimitives Coverage Results" MODIFIED="1519227953875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AsyncIO" />
     <SUITE FILE_PATH="coverage/TutorialEdge$Twisted_Trial_for_baseTest_MyModuleTest_test_calc_x_3.coverage" NAME="Twisted Trial for baseTest.MyModuleTest.test_calc_x_3 Coverage Results" MODIFIED="1519229090323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyUnit" />
     <SUITE FILE_PATH="coverage/TutorialEdge$Semaphores.coverage" NAME="Semaphores Coverage Results" MODIFIED="1519226525002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AsyncIO" />
+    <SUITE FILE_PATH="coverage/TutorialEdge$Task.coverage" NAME="Task Coverage Results" MODIFIED="1519229989890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AsyncIO" />
     <SUITE FILE_PATH="coverage/TutorialEdge$Twisted_Trial_in_baseTest_py.coverage" NAME="Twisted Trial in baseTest.py Coverage Results" MODIFIED="1519229211569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyUnit" />
   </component>
   <component name="FileEditorManager">
@@ -54,14 +56,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baseTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyUnit/baseTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#1#16#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AsyncIO/Task.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#1#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskFunctions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AsyncIO/TaskFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,6 +109,8 @@
         <option value="$PROJECT_DIR$/AsyncIO/SynchronizationPrimitives.py" />
         <option value="$PROJECT_DIR$/PyUnit/basic.py" />
         <option value="$PROJECT_DIR$/PyUnit/baseTest.py" />
+        <option value="$PROJECT_DIR$/AsyncIO/Task.py" />
+        <option value="$PROJECT_DIR$/AsyncIO/TaskFunctions.py" />
       </list>
     </option>
   </component>
@@ -127,11 +153,6 @@
               <item name="TutorialEdge" type="462c0819:PsiDirectoryNode" />
               <item name="AsyncIO" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TutorialEdge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TutorialEdge" type="462c0819:PsiDirectoryNode" />
-              <item name="PyUnit" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -155,8 +176,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Twisted Trial in baseTest.py">
-    <configuration name="Semaphores" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.TaskFunctions">
+    <configuration name="Task" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -169,13 +190,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TutorialEdge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AsyncIO/Semaphores.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AsyncIO/Task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="SynchronizationPrimitives" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TaskFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -188,7 +209,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TutorialEdge" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AsyncIO/SynchronizationPrimitives.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AsyncIO/TaskFunctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,19 +261,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Semaphores" />
-      <item index="1" class="java.lang.String" itemvalue="Python.SynchronizationPrimitives" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial in baseTest.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x_3" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Twisted Trial in baseTest.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x_3" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Task" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TaskFunctions" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Twisted Trial in baseTest.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x_3" />
-        <item index="3" class="java.lang.String" itemvalue="Python.SynchronizationPrimitives" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Semaphores" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TaskFunctions" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Task" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Twisted Trial in baseTest.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Twisted Trial for baseTest.MyModuleTest.test_calc_x_3" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +321,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -307,13 +329,13 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3164557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25267994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25267994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39873418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -370,11 +392,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PyUnit/baseTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#1#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsyncIO/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsyncIO/TaskFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
